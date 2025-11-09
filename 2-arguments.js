@@ -1,4 +1,3 @@
-// Get the arguments passed to the script (excluding node and script name)
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
